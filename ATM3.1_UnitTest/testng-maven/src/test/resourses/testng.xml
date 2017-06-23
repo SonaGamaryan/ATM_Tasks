@@ -1,0 +1,40 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Calculator" verbose="1" parallel="methods" thread-count="4">
+    <test name="Calculator" >
+
+        <groups>
+            <run>
+                <exclude name="Bugs"></exclude>
+            </run>
+        </groups>
+        <classes>
+
+            <class name="runner.CalclulatorTest"></class>
+
+            <class name="runner.CalculatorDivDoubleTest"></class>
+
+            <class name="runner.CalculatorCosTest"></class>
+            <class name="runner.CalculatorSinTest"></class>
+            <class name="runner.CalculatorPowTest"></class>
+            <class name="runner.CalculatorTgTest"></class>
+            <class name="runner.CalculatorCtgTest"></class>
+            <class name="runner.CalculatorDivDoubleTest"></class>
+            <class name="runner.CalculatorDivTest"></class>
+            <class name="runner.CalculatorIsNegativeTest"></class>
+            <class name="runner.CalculatorIsPositiveTest"></class>
+            <class name="runner.CalculatorMultDoubleTest"></class>
+            <class name="runner.CalculatorMultLongTest"></class>
+            <class name="runner.CalculatorSubDoubleTest"></class>
+            <class name="runner.CalculatorSubLongTest"></class>
+            <class name="runner.CalculatorSumDoubleTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="test2">
+    </test>
+
+
+</suite>
